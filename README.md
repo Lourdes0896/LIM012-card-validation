@@ -39,72 +39,6 @@ necesitaría validar una tarjeta de crédito y pensar en cómo debe ser esa
 experiencia de uso (qué pantallas, explicaciones, mensajes, colores, ¿marca?)
 etc.
 
-## 3. Objetivos de aprendizaje
-
-El objetivo principal de aprendizaje es adquirir experiencia desarrollando
-aplicaciones web (WebApp) que interactúen con el usuario a través del navegador
-y la lógica, utilizando HTML, CSS y JavaScript como herramientas.
-
-Reflexiona y luego marca los objetivos que has llegado a **entender** y
-**aplicar** en tu proyecto.
-
-### UX
-
-* [ ] [Diseñar la aplicación pensando y entendiendo al usuario](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/intro-ux/01-el-proceso-de-diseno/00-el-proceso-de-diseno)
-* [ ] [Crear prototipos para obtener feedback e iterar](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/00-sketching/00-sketching)
-* [ ] [Aplicar los principios de diseño visual](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/product-design/01-visual-design/01-visual-design-basics)
-
-### HTML y CSS
-
-* [ ] [Uso correcto de HTML semántico](https://developer.mozilla.org/en-US/docs/Glossary/Semantics#Semantics_in_HTML)
-* [ ] [Uso de selectores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Selectores_CSS)
-* [ ] [Construir tu aplicación respetando el diseño realizado](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/css/01-css/02-boxmodel-and-display) (maquetación).
-
-### DOM
-
-* [ ] [Uso de selectores de nodos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/03-1-dom-methods-selection)
-* [ ] [Manejo de eventos del DOM](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/browser/02-dom/04-events)
-* [ ] [Manipulación dinámica del DOM](https://developer.mozilla.org/es/docs/Referencia_DOM_de_Gecko/Introducci%C3%B3n)
-
-### Javascript
-
-* [ ] [Manipulación de strings](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/06-strings/01-strings)
-* [ ] [Uso de condicionales](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/01-conditionals-and-loops)
-* [ ] [Uso de bucles](https://lms.laboratoria.la/cohorts/lim-2020-01-bc-core-lim012/courses/javascript/02-flow-control/02-loops)
-* [ ] [Uso de funciones](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/javascript/02-flow-control/03-functions)
-* [ ] [Datos atómicos y estructurados](https://www.todojs.com/tipos-datos-javascript-es6/)
-* [ ] Utilizar ES Modules (`import` | `export`).
-
-### Testing
-
-* [ ] [Testeo de tus funciones](https://jestjs.io/docs/es-ES/getting-started)
-
-### Git y GitHub
-
-* [ ] [Comandos de git](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/01-git/04-commands)
-  (`add` | `commit` | `pull` | `status` | `push`).
-* [ ] [Manejo de repositorios de GitHub](https://lms.laboratoria.la/cohorts/lim-2019-09-bc-core-lim011/courses/scm/02-github/01-github)  (`clone` | `fork` | `gh-pages`).
-
-### Buenas prácticas de desarrollo
-
-* [ ] Organizar y dividir el código en módulos (Modularización).
-* [ ] Uso de identificadores descriptivos (Nomenclatura | Semántica).
-* [ ] Uso de linter para seguir buenas prácticas (ESLINT).
-
-## 4. Consideraciones generales
-
-* Este proyecto se debe resolver de manera individual.
-* El proyecto será entregado subiendo tu código a GitHub (`commit`/`push`) y la
-  interfaz será desplegada usando [GitHub pages](https://pages.github.com). Si
-  no sabes lo que es GitHub, no te preocupes, lo aprenderás durante este proyecto.
-* Tiempo para completarlo: Toma como referencia 2 semanas. Trabaja durante el
-  primer Sprint (una semana) y al final, trata de fijar un estimado de cuándo lo
-  terminarás.
-
-## 5. Criterios de aceptación mínimos del proyecto
-
-Usa solo caracteres numéricos (dígitos) en la tarjeta a validar [0-9].
-
 ### Definición del producto
 
 En el `README.md`, cuéntanos cómo pensaste en los usuarios y cuál fue tu proceso
@@ -114,28 +48,7 @@ para definir el producto final a nivel de experiencia y de interfaz.
 * Cuáles son los objetivos de estos usuarios en relación con tu producto.
 * Cómo crees que el producto que estás creando está resolviendo sus problemas.
 
-### Interfaz de usuario (UI)
 
-La interfaz debe permitir al usuario:
-
-* Insertar el número que queremos validar.
-* Ver el resultado si es válido o no.
-* Ocultar todos los dígitos de su número de tarjeta menos los últimos
-4 caracteres.
-* No debe poder ingresar un campo vacío.
-
-### UX (Diseño de experiencia de usuario)
-
-Antes de iniciar a codear, debes entender el problema que quieres solucionar y
-cómo tu aplicación lo soluciona.
-
-* Trabaja tu primer prototipo con papel y lápiz (blanco y negro).
-* Luego valida esta solución con una compañera (pedir feedback).
-* Toma lo aprendido al momento de validar tu primer prototipo y desarrolla un
-  nuevo prototipo usando alguna herramienta para diseño de prototipos
-  ([Balsamiq](https://balsamiq.com/), [Figma](https://www.figma.com/),
-  [Google Slides](https://www.google.com/intl/es/slides/about/), etc.)
-Estos puntos los presentarás en el `README.md`.
 
 ### Scripts / Archivos
 
@@ -145,19 +58,34 @@ Estos puntos los presentarás en el `README.md`.
 
 Debe contener lo siguiente:
 
-* Un título con el nombre de tu proyecto.
+* TItulo de mi Proyecto.
+  Teleticket conciert.
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
-* La imagen final de tu proyecto.
+  En mi proyecto voy a trabajar, en el último paso para comprar entradas a un concierto por internet, especificamente será para un concierto de Shakira.
+
 * Investigación UX:
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
+
+    Los usuarios son personas que compran en teleticket, entradas a un concierto de Shakira. 
+    El objetivo es poder finalizar el proceso de compra de la entrada, donde se necesita validar su tarjeta de crédito para que el pago se dé.
+
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
-  3. Luego colocarás la foto de tu primer prototipo en papel.
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
-  5. Imagen del prototipo final.
 
-#### Visualmente (HTML y CSS)
+    Para que la compra de la entrada al concierto sea efectiva, como último paso de la compra, se debe validar una tarjeta de crédito.
+    En mi proyecto colocará sus datos y el número de la tarjeta, se validará su tarjeta y así poder obtener su entrada al conciero de Shakira.
+
+  3. Luego colocarás la foto de tu primer prototipo en papel.
+    ![Prototipoenpapel] (https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20en%20papel.jpeg)
+  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+    
+     Mi coach me recomendó que tenga bien en claro a que tipo de ususarios iba a ir mi proyecto, para que al hacer el prototipo en Figma, tenga orientacion de qué estilos usaria y además saber exactamente para que iba a validar la tarjeta.
+
+  5. Imagen del prototipo final.
+     ![PrototipoFigma] (https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20Figma.png)
+
+#### Visualmente (HTML y CSS
 
 Deberás maquetar de forma exacta el prototipo final que hiciste en balsamiq
 utilizando HTML y CSS. En este momento elegirás los colores, tipo de fuente,
