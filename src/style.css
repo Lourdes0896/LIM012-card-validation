@@ -76,10 +76,12 @@ main{
 /*este es la parte del formulario*/ 
 #poster .contenedor{
     position: absolute;
-    width: 680px;
-    height: 450px;
+    /*width: 680px;
+    height: 450px; AQUIIIIIIIIIII PARA MEJOR SEMANTICA DE TUS CSS CON DISPLAY :)*/
     top: 15%;
     left: 42%;
+    display: table-row-group;
+    justify-content: right;
     color: floralwhite;
     background-color: #CC0D0D ;
     
