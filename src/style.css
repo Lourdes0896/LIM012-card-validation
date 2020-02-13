@@ -31,9 +31,18 @@ header label {
     left: 0;
     background: white;
     color: rgb(7, 7, 7);
-    font-size: 25px
-    
+    font-size: 25px;
 }
+
+    #shak {
+     display: flex;
+     justify-content: center;
+    }
+   
+
+
+
+
 
 /*Esta es la parte del logo de teletichet*/
 main{
