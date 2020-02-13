@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <title>Tarjeta de crédito válida</title>
     <link rel="stylesheet" href="style.css" />
-    <script> src="index.js"</script>
+   <script> src="index.js"</script>  
    
   </head>
   <body>
@@ -13,7 +13,7 @@
    
           <h1><imagen class= "teleticket"> <img src="teleticket.png"> </imagen></h1>  
          <label class="seccion" id="seccion_1"> 
-           <center> <h1>SHAKIRA 2021  WORLD TOUR </h1> </center>
+           <center> <h1> SHAKIRA 2021  WORLD TOUR </h1> </center>
         </label>
       </div>    
     </header>
@@ -22,27 +22,26 @@
       <section id="poster">
         <img src="shakira.png">
      
-        <div class="contenedor">
+        <div class="contenedor" id="Formulario">
          
           <h2>FINALIZA LA COMPRA: 1 entrada(s) (s/750)</h2> <br><br>
           <p>Estimado usuario,  ingrese sus datos</p> <br>
           <p>Nombres:</p>
-          <input type="letras" name="Nombres" required>
+          <input type="letras" name="Nombres" id="Nombres"required>
           <p>Apellidos:</p>
-          <input type="letras" name="Apellidos" required>
+          <input type="letras" name="Apellidos" id="apellidos" required>
           <p>Email:</p>
-          <input type="text" name="Email"required>
+          <input type="email" name="Email"id="email"required>
           <p>N° de Tarjeta:</p>
-          <input type=text  name="Tarjeta" id="Tarjeta"  
+          <input type=text  name="Tarjeta" id="tarjeta"  
           minlength="16" maxlength="16" required> 
           <p>MM/AA:</p>
-          <input type="text" name="Fecha">
+          <input type="text" name="Fecha"id="fecha"required>
           <p>CVV:</p>
-          <inout type="texte" name="Vencimiento"></inout>
+          <input type="texte" name="Vencimiento"id="vencimiento"required>
           <br> <br>
           
-          <button type="button" id="btn">Validar</button>
-      
+          <button type="button" id="btn" >Validar</button>
         </div>
       </section>
     </main>
