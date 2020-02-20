@@ -12,7 +12,7 @@
       <div class="contenedor">
    
           <h1><imagen id= "teleticket"> <img src="teleticket.png"> </imagen></h1>  
-         <label class="seccion" id="seccion_1"> 
+         <label class="seccion" id="foto"> 
             <h1 id="shak"> SHAKIRA 2021  WORLD TOUR </h1> 
         </label>
       </div>    
@@ -22,49 +22,54 @@
       <section id="poster">
         <img src="shakira.png">
      
-        <div class="contenedor" id="seccion1">
-         
-          <h2>FINALIZA LA COMPRA: 1 entrada(s) (s/750)</h2> <br><br>
+        <div class="contenedor1" id="seccion1">
+          <h2>FINALIZA LA COMPRA: 1 entrada(s) (s/750)</h2> <br>
           <p>Estimado usuario,  ingrese sus datos</p> <br>
-          <p>Nombres:</p>
-          <input type="letras" name="Nombres" id="Nombres" >
-          <p>Apellidos:</p>
-          <input type="letras" name="Apellidos" id="apellidos">
-          <p>Email:</p>
-          <input type="email" name="Email"id="email">
-          
-          <p>N° de Tarjeta:</p>
-          <input type="text"  name="" id="creditCardNumber" maxlength="16"  
-          minlength="16" maxlength="16"> 
-         
-          <p>MM/AA:</p>
-          <input type="text" name="Fecha"id="fecha" maxlength="4" >
-          <p>CVV:</p>
-          <input type="text" name="Vencimiento"id="vencimiento" maxlength="3" >
-          <br> <br>
-          
-          <button type="button" id="btn" >Validar</button>
-        </div> 
+       
 
-        <div id="seccion2">
+          <input type="text" name="Nombres" id="Nombres" 
+          placeholder="Nombres"> <br> <br>
+
+          <input type="text" name="Apellidos" id="apellidos"
+          placeholder="Apellidos"> <br> <br>
+          
+          <input type="email" name="Email"id="email"
+          placeholder="Email"> <br> <br>
+        
+          <input type="text" name="" id="creditCardNumber" maxlength="16"  
+          minlength="16" maxlength="16"placeholder="Número de Tarjeta" required> 
+          <br><br>
+         
+          <input type="text" name="Fecha"id="fecha" class="small"maxlength="5"
+           placeholder="MM/AA" >
+
+          <input type="text" name="Vencimiento"id="vencimiento" class="small"
+          maxlength="3"
+          placeholder="CVV">  <br> <br>
+          
+         
+
+          <button type="button" id="btn" >VALIDAR</button>
+        </div> 
+      
+        <div  id="seccion2">
     
-          <h2 id=""> Estimado usuario su tarjeta N°:</h2>
-          <h2 id="maskify"></h2>
-          <p>Fue validada con exito. </p> 
-          <p> Tienes una entrada Premiun (S/750), 
-            verifique su correo electronico</p>
-          <button input type ="button" id="menuprincipal">Menu principal</button>
+          <h2> Estimado usuario su tarjeta N°:</h2> <br>
+          <h2 id="maskify"></h2> <br>
+          <p>Fue validada con éxito. Tiene una entrada Premiun (S/750), 
+            verifique su correo electrónico. </p> <br> <br>   
+          <button input type ="button" id="menuprincipal">MENÚ PRINCIPAL</button>
           <div id="validador"></div>  
          
         </div>
 
-        <div id="seccion3">
-
-          <h1>Error. Por favor verifica tus datos</h1>
+        <div id="seccion3">  <br>
+          <h1>Error. Por favor verifique sus datos.</h1> <br>
           <button type="button" id="verificar">Verificar</button>
 
         <div id="seccion4">
-          <h> Bienvenid@, aqui podrás adquirir tus entradas para los mejores eventos en Perú</h1>
+          <h1>Bienvenid@, aqui podrás adquirir tus entradas para los 
+            mejores eventos en Perú</h1>
           <p>esta es una prueba</p>
           </div>  
 
