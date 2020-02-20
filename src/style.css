@@ -46,7 +46,7 @@ header label {
 
 /*Esta es la parte del logo de teletichet*/
 main{
-    
+ font-family: 'Oxygen', sans-serif;
 }
 
 .contenedor {
@@ -74,16 +74,96 @@ main{
 }
 
 /*este es la parte del formulario*/ 
-#poster .contenedor{
+#poster .contenedor1{
     position: absolute;
-    /*width: 680px;
-    height: 450px; AQUIIIIIIIIIII PARA MEJOR SEMANTICA DE TUS CSS CON DISPLAY :)*/
-    top: 15%;
+    width: 550px;
+    height: 450px; 
+    top: 10%;
+    left: 42%;
+    display: table-row-group;
+    justify-content: right;
+    color: floralwhite;
+    background-color: #CC0D0D;
+    padding: 40px;
+    border-radius: 6px;
+   
+}
+
+#seccion2{
+    position: absolute;
+    width: 545px;
+    height: 400px; 
+    top: 12%;
     left: 42%;
     display: table-row-group;
     justify-content: right;
     color: floralwhite;
     background-color: #CC0D0D ;
-    
+    padding: 40px;
+    border-radius: 6px;
 }
+
+#seccion3{
+    position: absolute;
+    width: 610px;
+    height: 450px; 
+    top: 12%;
+    left: 42%;
+    display: table-row-group;
+    justify-content: right;
+    color: floralwhite;
+    background-color: #CC0D0D ;
+    padding: 10px;
+    border-radius: 6px;
+}
+input{
+   border: solid 2px #333333; 
+   padding: 10px;
+   width: 500px;
+   position: relative;
+   font-size: 15px;
+}
+
+input.small{
+    border: solid 2px #333333; 
+   padding: 10px;
+   width: 235px;
+   position: relative;
+   font-size: 15px;
+}
+
+button#btn{
+    border: solid 2px #333333; 
+    padding: 11px;
+    width: 523px;
+    position: relative;
+    background: rgb(59, 61, 61);
+    color: cornsilk;
+ }
+
+ button#menuprincipal{
+    border: solid 2px #333333; 
+    padding: 11px;
+    width: 350px;
+    left: 23%;
+    position: relative;
+    background: rgb(59, 61, 61);
+    color: cornsilk;
+    top: 80%;  
+ }
+
+ button#verificar{
+    border: solid 2px #333333; 
+    padding: 11px;
+    width: 350px;
+    left: 23%;
+    position: relative;
+    background: rgb(59, 61, 61);
+    color: cornsilk;
+    top: 80%; 
+ }
+ button:hover{
+     cursor: pointer;
+ }
+
 
