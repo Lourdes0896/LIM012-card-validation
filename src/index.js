@@ -11,24 +11,25 @@ let botonmenu = document.getElementById ('menuprincipal');
 
 botonvalidar.addEventListener('click', () => {
   document.getElementById("seccion1").style.display="none";
-
   let validadorfinal = document.getElementById('validador');
   validadorfinal.innerHTML = validator.isValid(tarjeta.value);
   
-
   if(validadorfinal.innerHTML === 'true'){
     let ocultarnumeros = document.getElementById ('maskify');
     ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
     document.getElementById("seccion2").style.display="block";
   } else{
+    let ocultarnumeros = document.getElementById ('maskify');
+    ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
     document.getElementById("seccion3").style.display="block";
   }
 
 });
 
 botonmenu.addEventListener('click', ()=> {
-  document.getElementById("seccion4").style.display="block";
   document.getElementById("seccion2").style.display="none";
+  document.getElementById("seccion4").style.display="block";
+ 
 
 
 });
@@ -39,8 +40,8 @@ botonregresar.addEventListener("click",()=>{
 
 
  
-}
-)
+});
+
 
 
 
