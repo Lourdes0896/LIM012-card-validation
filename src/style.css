@@ -77,18 +77,25 @@ main{
 #poster .contenedor1{
     position: absolute;
     width: 550px;
-    height: 450px; 
-    top: 10%;
+    height: 550px; 
+    top: 8%;
     left: 42%;
     display: table-row-group;
     justify-content: right;
     color: floralwhite;
     background-color: #CC0D0D;
-    padding: 40px;
+    padding: 20px;
     border-radius: 6px;
+    
    
 }
 
+#seccion1 img {
+    width: 70px;
+    height: 50px;
+    margin: 25px;
+    
+}
 #seccion2{
     position: absolute;
     width: 545px;
@@ -103,11 +110,16 @@ main{
     border-radius: 6px;
 }
 
+#seccion2 img{
+    width: 500px;
+    height: 150px;
+    margin: 10px;
+}
 #seccion3{
     position: absolute;
     width: 610px;
-    height: 450px; 
-    top: 12%;
+    height: 200px; 
+    top: 23%;
     left: 42%;
     display: table-row-group;
     justify-content: right;
@@ -134,18 +146,21 @@ input.small{
 
 button#btn{
     border: solid 2px #333333; 
-    padding: 11px;
+    padding: 15px;
     width: 523px;
-    position: relative;
+    position: absolute;
     background: rgb(59, 61, 61);
     color: cornsilk;
+    top: 87%;
+    width: 510px;
+    left: 7%;
  }
 
  button#menuprincipal{
     border: solid 2px #333333; 
     padding: 11px;
     width: 350px;
-    left: 23%;
+    left: 15%;
     position: relative;
     background: rgb(59, 61, 61);
     color: cornsilk;
