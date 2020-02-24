@@ -11,19 +11,23 @@ let botonregresar =document.getElementById ('verificar');
 
 botonvalidar.addEventListener('click', () => {
   document.getElementById("seccion1").style.display="none";
+  if(tarjeta.value === ""){
+    alert("Complete sus datos por favor");
+  }else{
+    let validadorfinal = document.getElementById('validador');
+    validadorfinal.innerHTML = validator.isValid(tarjeta.value);
+    
+    if (validadorfinal.innerHTML === 'true'){
+      let ocultarnumeros = document.getElementById ('maskify');
+      ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
+      document.getElementById("seccion2").style.display="block";
+    } else{
+    
+      document.getElementById("seccion3").style.display="block";
+    }
 
-  let validadorfinal = document.getElementById('validador');
-  validadorfinal.innerHTML = validator.isValid(tarjeta.value);
-  
-  if(validadorfinal.innerHTML === 'true'){
-    let ocultarnumeros = document.getElementById ('maskify');
-    ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
-    document.getElementById("seccion2").style.display="block";
-  } else{
-  
-    document.getElementById("seccion3").style.display="block";
   }
-
+  
 });
 
 let botonmenu = document.getElementById ('menuprincipal');
