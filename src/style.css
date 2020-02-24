@@ -70,6 +70,9 @@ main{
 #poster img {
  width: 100%;
  height: 100%;
+ background-attachment: fixed;
+ margin: 0;
+ 
 
 }
 
@@ -181,4 +184,43 @@ button#btn{
      cursor: pointer;
  }
 
+ #seccion4{
+    position: absolute;
+    width: 545px;
+    height: 400px; 
+    top: 12%;
+    left: 42%;
+    display: table-row-group;
+    justify-content: right;
+    color: floralwhite;
+    background-color: #CC0D0D ;
+    padding: 40px;
+    border-radius: 6px;
+ }
 
+ .contenedor3{
+    background: aliceblue;
+    color: #333333;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5px;
+    
+}
+
+
+
+.sociales{
+    width: 100%;
+    text-align: center;
+    font-size: 28px;
+
+}
+
+
+@media (max-width: 480px){
+       .contenedor1{
+        width: 100%;
+
+    }
+}
