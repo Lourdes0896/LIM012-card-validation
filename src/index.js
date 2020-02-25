@@ -17,7 +17,7 @@ botonvalidar.addEventListener('click', () => {
     let validadorfinal = document.getElementById('validador');
     validadorfinal.innerHTML = validator.isValid(tarjeta.value);
     
-    if (validadorfinal.innerHTML === 'true'){
+    if (validadorfinal.innerHTML === true){
       let ocultarnumeros = document.getElementById ('maskify');
       ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
       document.getElementById("seccion2").style.display="block";
