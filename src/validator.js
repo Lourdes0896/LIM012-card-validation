@@ -30,9 +30,10 @@ const validator = {
     }
     sumatotal=(parseInt (acum+cont)) % 10;
     if (sumatotal===0){
-      return true;
-    }else{return false;
-    }
+       return true;
+     }else{
+      return false;
+     }
   },
 
     maskify:(creditCardNumber)=>{
