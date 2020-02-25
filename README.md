@@ -147,18 +147,18 @@ Debe contener lo siguiente:
 
 * TItulo de mi Proyecto.
 
-  Teleticket conciert.
+  'Teleticket conciert.'
 
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+* Un resumen de 1 o 2 líneas de qué se trata tu proyecto:
 
-  En mi proyecto voy a trabajar, en el último paso para comprar entradas a un concierto por internet, especificamente será para un concierto de Shakira.
+  En mi proyecto voy a trabajar, en el último paso para comprar por internet,las entradas a un concierto, especificamente será para un concierto de Shakira.
 
 * Investigación UX:
 
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
-    Los usuarios son personas que compran en teleticket, entradas a un concierto de Shakira. 
+    Los usuarios son personas que compran en el sitio web de teleticket, entradas a un concierto de Shakira. 
     El objetivo es poder finalizar el proceso de compra de la entrada, donde se necesita validar su tarjeta de crédito para que el pago se dé.
 
   2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
@@ -171,7 +171,7 @@ Debe contener lo siguiente:
     ![Prototipoenpapel] (https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20en%20papel.jpeg)
   4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
     
-     Mi coach me recomendó que tenga bien en claro a que tipo de ususarios iba a ir mi proyecto, para que al hacer el prototipo en Figma, tenga orientacion de qué estilos usaria y además saber exactamente para que iba a validar la tarjeta.
+     Mi coach me recomendó que tenga bien en claro a que tipo de usuarios iba a ir mi proyecto, para que al hacer el prototipo en Figma, tenga orientacion de qué estilos usaria y además saber exactamente para que iba a validar la tarjeta.
 
   5. Imagen del prototipo final.
      ![PrototipoFigma] (https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20Figma.png)
