@@ -146,11 +146,15 @@ Estos puntos los presentarás en el `README.md`.
 Debe contener lo siguiente:
 
 * TItulo de mi Proyecto.
+
   Teleticket conciert.
+
 * Un resumen de 1 o 2 líneas de qué se trata tu proyecto.
+
   En mi proyecto voy a trabajar, en el último paso para comprar entradas a un concierto por internet, especificamente será para un concierto de Shakira.
 
 * Investigación UX:
+
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
