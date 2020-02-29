@@ -173,13 +173,25 @@ button#btn{
  button#verificar{
     border: solid 2px #333333; 
     padding: 11px;
-    width: 350px;
-    left: 23%;
+    width: 200px;
+    left: 12%;
     position: relative;
     background: rgb(59, 61, 61);
     color: cornsilk;
     top: 80%; 
  }
+
+ button#salir{
+    border: solid 2px #333333; 
+    padding: 11px;
+    width: 200px;
+    left: 25%;
+    position: relative;
+    background: rgb(59, 61, 61);
+    color: cornsilk;
+    top: 80%; 
+ }
+
  button:hover{
      cursor: pointer;
  }
