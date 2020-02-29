@@ -6,7 +6,8 @@ document.getElementById("seccion4").style.display="none";
 
 let tarjeta = document.getElementById("creditCardNumber");
 let botonvalidar =document.getElementById("btn");
-let botonregresar =document.getElementById ("verificar");
+let botonverificar =document.getElementById ("verificar");
+let botonsalir =document.getElementById ("salir");
 
 
 botonvalidar.addEventListener("click", () => {
@@ -18,12 +19,11 @@ botonvalidar.addEventListener("click", () => {
     let validadorfinal = document.getElementById("validador");
     validadorfinal.innerHTML = validator.isValid(tarjeta.value);
     
-    if (validadorfinal.innerHTML = true){
+    if (validadorfinal.innerHTML === 'true'){
       let ocultarnumeros = document.getElementById ("maskify");
       ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
       document.getElementById("seccion2").style.display="block";
-    } else{
-    
+    } else {
       document.getElementById("seccion3").style.display="block";
     }
 
@@ -39,7 +39,7 @@ botonmenu.addEventListener("click", ()=> {
   
  });
 
-botonregresar.addEventListener("click",()=>{
+botonverificar.addEventListener("click",()=>{
   document.getElementById("seccion1").style.display="block";
   document.getElementById("seccion3").style.display="none";
 
@@ -47,3 +47,10 @@ botonregresar.addEventListener("click",()=>{
  
 });
 
+botonsalir.addEventListener("click",()=>{
+  document.getElementById("seccion4").style.display="block";
+  document.getElementById("seccion3").style.display="none";
+
+
+ 
+});
