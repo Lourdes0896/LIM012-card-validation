@@ -1,13 +1,9 @@
 
-* TItulo de mi Proyecto.
-
-  'Teleticket conciert.'
-
-* Un resumen de 1 o 2 líneas de qué se trata tu proyecto:
+ ** Teleticket conciert. **
 
   En mi proyecto voy a trabajar, en el último paso para comprar por internet,las entradas a un concierto, especificamente será para un concierto de Shakira.
 
-* Investigación UX:
+## 1. Investigación UX:
 
   1. Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
@@ -32,6 +28,20 @@
   5. Imagen del prototipo final.
 
     <p aling="center"> <img src= https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20Figma.png> </p>
+
+## 2. Pantallas de mi proyecto: 
+ 
+  * Primera Pantalla
+
+    <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/1%20pantalla.png> </p>
+
+  * Segunda Pantalla
+
+  <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/2%20pantalla.png> </p>
+
+  * Tercera Pantalla
+
+  <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/3%20pantalla.png> </p>
 
 
 
