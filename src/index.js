@@ -17,9 +17,11 @@ botonvalidar.addEventListener("click", () => {
     document.getElementById("seccion1").style.display="block";
   }else{
     let validadorfinal = document.getElementById("validador");
-    validadorfinal.innerHTML = validator.isValid(tarjeta.value);
+    const resultado = validator.isValid(tarjeta.value);
+    console.log(typeof resultado);
+    validadorfinal.innerHTML = resultado;
     
-    if (validadorfinal.innerHTML === 'true'){
+    if (resultado){
       let ocultarnumeros = document.getElementById ("maskify");
       ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
       document.getElementById("seccion2").style.display="block";
