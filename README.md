@@ -1,5 +1,5 @@
 
- **Teleticket conciert.**
+ ## **TELETICKET CONCIERTO.**
 
   En mi proyecto voy a trabajar, en el último paso para comprar por internet,las entradas a un 
   concierto, especificamente será para un concierto de Shakira.
@@ -29,7 +29,7 @@
     
      Mi coach me recomendó que tenga bien en claro a que tipo de usuarios iba a ir mi proyecto, para que al hacer el prototipo en Figma, tenga orientacion de qué estilos usaria y además saber exactamente para que iba a validar la tarjeta.
 
-  * Imagen del prototipo final.
+  * Imagen del prototipo final en Figma.
 
     <p aling="center"> <img src= https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20Figma.png> </p>
 
