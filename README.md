@@ -5,27 +5,27 @@
 
 ## 1. Investigación UX:
 
-  1. Explicar quiénes son los usuarios y los objetivos en relación con el
+  * Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
     Los usuarios son personas que compran en el sitio web de teleticket, entradas a un concierto de Shakira. 
     El objetivo es poder finalizar el proceso de compra de la entrada, donde se necesita validar su tarjeta de crédito para que el pago se dé.
 
-  2. Explicar cómo el producto soluciona los problemas/necesidades de dichos
+  * Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
 
     Para que la compra de la entrada al concierto sea efectiva, como último paso de la compra, se debe validar una tarjeta de crédito.
     En mi proyecto colocará sus datos y el número de la tarjeta, se validará su tarjeta y así poder obtener su entrada al conciero de Shakira.
 
-  3. Luego colocarás la foto de tu primer prototipo en papel.
+  * Luego colocarás la foto de tu primer prototipo en papel.
 
     <p aling="center"> <img src="https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20en%20papel.jpeg"></p>
 
-  4. Agregar un resumen del feedback recibido indicando las mejoras a realizar.
+  * Agregar un resumen del feedback recibido indicando las mejoras a realizar.
     
      Mi coach me recomendó que tenga bien en claro a que tipo de usuarios iba a ir mi proyecto, para que al hacer el prototipo en Figma, tenga orientacion de qué estilos usaria y además saber exactamente para que iba a validar la tarjeta.
 
-  5. Imagen del prototipo final.
+  * Imagen del prototipo final.
 
     <p aling="center"> <img src= https://github.com/Lourdes0896/LIM012-card-validation/blob/master/prototipo%20Figma.png> </p>
 
@@ -37,11 +37,11 @@
 
   * Segunda Pantalla
 
-  <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/2%20pantalla.png> </p>
+   <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/2%20pantalla.png> </p>
 
   * Tercera Pantalla
 
-  <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/3%20pantalla.png> </p>
+   <p aling="center"> <img src=https://github.com/Lourdes0896/LIM012-card-validation/blob/master/3%20pantalla.png> </p>
 
 
 
