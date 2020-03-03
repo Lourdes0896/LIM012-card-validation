@@ -1,21 +1,25 @@
 
  ** Teleticket conciert. **
 
-  En mi proyecto voy a trabajar, en el último paso para comprar por internet,las entradas a un concierto, especificamente será para un concierto de Shakira.
+  En mi proyecto voy a trabajar, en el último paso para comprar por internet,las entradas a un 
+  concierto, especificamente será para un concierto de Shakira.
 
 ## 1. Investigación UX:
 
   * Explicar quiénes son los usuarios y los objetivos en relación con el
     producto.
 
-    Los usuarios son personas que compran en el sitio web de teleticket, entradas a un concierto de Shakira. 
-    El objetivo es poder finalizar el proceso de compra de la entrada, donde se necesita validar su tarjeta de crédito para que el pago se dé.
+    Los usuarios son personas que compran en el sitio web de teleticket, entradas a un concierto 
+    de Shakira. El objetivo es poder finalizar el proceso de compra de la entrada, donde se necesita 
+    validar su tarjeta de crédito para que el pago se dé.
 
   * Explicar cómo el producto soluciona los problemas/necesidades de dichos
     usuarios.
 
-    Para que la compra de la entrada al concierto sea efectiva, como último paso de la compra, se debe validar una tarjeta de crédito.
-    En mi proyecto colocará sus datos y el número de la tarjeta, se validará su tarjeta y así poder obtener su entrada al conciero de Shakira.
+    Para que la compra de la entrada al concierto sea efectiva, como último paso de la compra, 
+    se debe validar una tarjeta de crédito.
+    En mi proyecto colocará sus datos y el número de la tarjeta, se validará su tarjeta y así 
+    poder obtener su entrada al conciero de Shakira.
 
   * Luego colocarás la foto de tu primer prototipo en papel.
 
