@@ -20,7 +20,6 @@ botonvalidar.addEventListener("click", () => {
     const resultado = validator.isValid(tarjeta.value);
     console.log(typeof resultado);
     validadorfinal.innerHTML = resultado;
-    
     if (resultado){
       let ocultarnumeros = document.getElementById ("maskify");
       ocultarnumeros.innerHTML = validator.maskify (tarjeta.value);
